@@ -16,11 +16,11 @@ def multiplication():
     mul=n1+n2
     print("The multiplication is : ",mul)
 
-
 def div():
     n1=int(input("Enter the 1st number: "))
     n2=int(input("Enter the 2nd number: "))
     d=n1/n2
+
     print("The sum is : ",d)
 
 def subtraction():
@@ -32,6 +32,9 @@ def subtraction():
 
  
  
+
+
+
 print("1.Addition\n2.Substraction\n3.Multiplication\n4.Division\n5.Square-Root\n6.Power\n7.exit\n")
 op=0
 while op<7:
