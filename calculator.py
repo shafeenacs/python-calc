@@ -13,6 +13,12 @@ def div():
     n2=int(input("Enter the 2nd number: "))
     d=n1/n2
     print("The sum is : ",d)
+def subtraction():
+    a=int(input("Enter 1st number"))
+    b=int(input("Enter 2nd number"))
+    d=a-b
+    print("Difference = ",d)
+    return
 print("1.Addition\n2.Substraction\n3.Multiplication\n4.Division\n5.Square-Root\n6.Power\n7.exit\n")
 op=0
 while op<7:
@@ -21,7 +27,7 @@ while op<7:
         case 1:
             addtion()
         case 2:
-            print("Work In Progress")
+            subtraction()
         case 3:
             print("Work In Progress")
         case 4:
