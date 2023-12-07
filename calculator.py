@@ -29,8 +29,12 @@ def subtraction():
     d=a-b
     print("Difference = ",d)
     return
-
- 
+def power():
+    a=int(input("Enter the base"))
+    b=int(input("Enter the exponent"))
+    res=pow(a,b)
+    print("Power = ",res)
+    return
  
 
 
@@ -51,7 +55,7 @@ while op<7:
         case 5:
             sqrt()
         case 6:
-            print("Work In Progress")
+            power()
         case 7:
             print("Thank You!")
         case default:
